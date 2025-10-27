@@ -1,0 +1,319 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/white">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_marginTop="30dp"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="40dp"
+                app:cardElevation="4dp"
+                app:cardCornerRadius="12dp">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/ukrest1" />
+            </androidx.cardview.widget.CardView>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="16dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Abitha Hotel"
+                    android:textSize="23sp"
+                    android:textColor="@android:color/black"
+                    android:textStyle="bold"/>
+
+                <!-- Additional TextViews for Image 1 -->
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@android:color/black"
+                    android:text="Distance: 2 km from Ukkadam Lake"
+                    android:textSize="17sp"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Address: 123 Ek Street,Masjid Road,Ukkadam "
+                    android:textColor="@android:color/black"
+                    android:textSize="17sp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Type: Non Veg  "
+                    android:textColor="@android:color/black"
+                    android:textSize="17sp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Price Range: 200- 400"
+                    android:textColor="@android:color/black"
+                    android:textSize="17sp"/>
+
+                <!-- RatingBar -->
+                <RatingBar
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:isIndicator="true"
+                    android:rating="4.2"
+                    android:stepSize="0.5"/>
+            </LinearLayout>
+        </LinearLayout>
+
+        <!-- Space between images and text -->
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="10dp"/>
+        <!-- Black Line -->
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/black"/>
+        <!-- Second Image with Text -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_marginTop="30dp"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="40dp"
+                app:cardElevation="4dp"
+                app:cardCornerRadius="12dp">
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="160dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/ukrest2" />
+            </androidx.cardview.widget.CardView>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="16dp">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="FORT VIEW"
+                    android:textColor="@android:color/black"
+                    android:textStyle="bold"
+                    android:textSize="23sp"/>
+
+                <!-- Additional TextViews for Image 2 -->
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Distance: 2 km from Ukkadam Lake"
+                    android:textColor="@android:color/black"
+                    android:textSize="17sp"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Address: 145-147BK Shetty Vincent Road Kottamedu Ukkadam "
+                    android:textColor="@android:color/black"
+                    android:textSize="15sp"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Type: Veg and Non Veg"
+                    android:textColor="@android:color/black"
+                    android:textSize="17sp"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Price Range: two persons-450"
+                    android:textColor="@android:color/black"
+                    android:textSize="17sp"/>
+                <!-- RatingBar -->
+                <RatingBar
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:isIndicator="true"
+                    android:rating="4.1"
+                    android:stepSize="0.5"/>
+            </LinearLayout>
+        </LinearLayout>
+
+        <!-- Space between images and text -->
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="10dp"/>
+        <!-- Black Line -->
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/black"/>
+
+        <!-- Third Image with Text -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_marginTop="30dp"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="40dp"
+                app:cardElevation="4dp"
+                app:cardCornerRadius="12dp">
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="160dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/ukrest4" />
+            </androidx.cardview.widget.CardView>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="16dp">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Thalassery Restaurant Coimbatore"
+                    android:textColor="@android:color/black"
+                    android:textStyle="bold"
+                    android:textSize="23sp"/>
+                <!-- Additional TextViews for Image 2 -->
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Distance: 2.6 km from Ukkadam Lake"
+                    android:textColor="@android:color/black"
+                    android:textSize="17sp"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Address: South Ukkadam"
+                    android:textColor="@android:color/black"
+                    android:textSize="17sp"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Type: Veg and Non Veg"
+                    android:textColor="@android:color/black"
+                    android:textSize="17sp"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Price Range: two persons-500 "
+                    android:textColor="@android:color/black"
+                    android:textSize="17sp"/>
+                <!-- RatingBar -->
+                <RatingBar
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:isIndicator="true"
+                    android:rating="3.5"
+                    android:stepSize="0.5"/>
+            </LinearLayout>
+        </LinearLayout>
+        <!-- Space between images and text -->
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="10dp"/>
+        <!-- Black Line -->
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/black"/>
+        <!-- Fourth Image with Text -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_marginTop="30dp"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="40dp"
+                app:cardElevation="4dp"
+                app:cardCornerRadius="12dp">
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="160dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/ukrest3" />
+            </androidx.cardview.widget.CardView>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="16dp">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Kailash Parbat Coimbatore"
+                    android:textColor="@android:color/black"
+                    android:textSize="23sp"
+                    android:textStyle="bold"/>
+                <!-- Additional TextViews for Image 2 -->
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Distance: 4.4 km from Ukkadam Lake"
+                    android:textColor="@android:color/black"
+                    android:textSize="17sp"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Address: LG-23 Brookfields mall"
+                    android:textColor="@android:color/black"
+                    android:textSize="17sp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Type: Veg "
+                    android:textColor="@android:color/black"
+                    android:textSize="17sp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Price Range: 200 to 400"
+                    android:textColor="@android:color/black"
+                    android:textSize="17sp"/>
+
+                <!-- RatingBar -->
+                <RatingBar
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:isIndicator="true"
+                    android:rating="4.0"
+                    android:stepSize="0.5"/>
+            </LinearLayout>
+        </LinearLayout>
+        <!-- Space between images and text -->
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="10dp"/>
+        <!-- Black Line -->
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/black"/>
+    </LinearLayout>
+</ScrollView>

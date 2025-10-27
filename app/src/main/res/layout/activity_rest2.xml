@@ -1,0 +1,636 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/white">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- First Image with Text -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_marginTop="30dp"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="40dp"
+                app:cardElevation="4dp"
+                app:cardCornerRadius="12dp">
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="160dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/aryas" />
+            </androidx.cardview.widget.CardView>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="16dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Hotel Aryas Restaurant"
+                    android:textColor="@android:color/black"
+                    android:textSize="23sp"
+                    android:textStyle="bold"/>
+
+                <!-- Additional TextViews for Image 1 -->
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Distance: 1.9 km from Siruvani Falls "
+                    android:textColor="@android:color/black"
+                    android:textSize="17sp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Type: Veg  "
+                    android:textColor="@android:color/black"
+                    android:textSize="17sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Address: Arasur Post,Thenampalayan Avinashi Road "
+                    android:textColor="@android:color/black"
+                    android:textSize="15sp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Price Range: Average"
+                    android:textColor="@android:color/black"
+                    android:textSize="17sp"/>
+
+                <!-- RatingBar -->
+                <RatingBar
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:rating="3.5"
+                    android:isIndicator="true"
+                    android:stepSize="0.5"/>
+            </LinearLayout>
+        </LinearLayout>
+
+        <!-- Space between images and text -->
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="10dp"/>
+        <!-- Black Line -->
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/black"/>
+        <!-- Second Image with Text -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_marginTop="30dp"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="40dp"
+                app:cardElevation="4dp"
+                app:cardCornerRadius="12dp">
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="160dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/haribha" />
+            </androidx.cardview.widget.CardView>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="16dp">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Hari Bhavan"
+                    android:textColor="@android:color/black"
+                    android:textStyle="bold"
+                    android:textSize="23sp"/>
+
+                <!-- Additional TextViews for Image 2 -->
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@android:color/black"
+                    android:text="Distance: 5.4km from Siruvani Falls"
+                    android:textSize="17sp"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Address: Goldwins,Avinashi Road,next to KMCH hospital "
+                    android:textColor="@android:color/black"
+                    android:textSize="15sp"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Type: Veg"
+                    android:textColor="@android:color/black"
+                    android:textSize="17sp"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Price Range: Average"
+                    android:textColor="@android:color/black"
+                    android:textSize="17sp"/>
+                <!-- RatingBar -->
+                <RatingBar
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:rating="3.5"
+                    android:isIndicator="true"
+                    android:stepSize="0.5"/>
+            </LinearLayout>
+        </LinearLayout>
+
+        <!-- Space between images and text -->
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="10dp"/>
+        <!-- Black Line -->
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/black"/>
+
+        <!-- Third Image with Text -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_marginTop="30dp"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="40dp"
+                app:cardElevation="4dp"
+                app:cardCornerRadius="12dp">
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="160dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/kov" />
+            </androidx.cardview.widget.CardView>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="16dp">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Kovai Kitchen"
+                    android:textStyle="bold"
+                    android:textSize="23sp"/>
+                <!-- Additional TextViews for Image 2 -->
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Distance: 1.4km from Siruvani Falls"
+                    android:textColor="@android:color/black"
+                    android:textSize="17sp"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Address: 469/2b fairfield By Marriott Airport Road"
+                    android:textColor="@android:color/black"
+                    android:textSize="15sp"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Type: Veg and Non Veg "
+                    android:textColor="@android:color/black"
+                    android:textSize="17sp"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Price Range: 1800 for two people "
+                    android:textColor="@android:color/black"
+                    android:textSize="17sp"/>
+                <!-- RatingBar -->
+                <RatingBar
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:isIndicator="true"
+                    android:rating="4"
+                    android:stepSize="0.5"/>
+            </LinearLayout>
+        </LinearLayout>
+        <!-- Space between images and text -->
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="10dp"/>
+        <!-- Black Line -->
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/black"/>
+        <!-- Fourth Image with Text -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_marginTop="30dp"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="40dp"
+                app:cardElevation="4dp"
+                app:cardCornerRadius="12dp">
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="160dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/mer" />
+            </androidx.cardview.widget.CardView>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="16dp">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Le Meridien Restaurant"
+                    android:textColor="@android:color/black"
+                    android:textSize="23sp"
+                    android:textStyle="bold"/>
+                <!-- Additional TextViews for Image 2 -->
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Distance: 4.2km from Siruvani Falls"
+                    android:textColor="@android:color/black"
+                    android:textSize="17sp"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Address: 762 Avinashi Road "
+                    android:textColor="@android:color/black"
+                    android:textSize="17sp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Type: Veg and Non Veg "
+                    android:textColor="@android:color/black"
+                    android:textSize="17sp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Price Range: Average"
+                    android:textColor="@android:color/black"
+                    android:textSize="17sp"/>
+
+                <!-- RatingBar -->
+                <RatingBar
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:rating="3.5"
+                    android:isIndicator="true"
+                    android:stepSize="0.5"/>
+            </LinearLayout>
+        </LinearLayout>
+        <!-- Space between images and text -->
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="10dp"/>
+        <!-- Black Line -->
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/black"/>
+
+        <!-- Fifth Image with Text -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_marginTop="30dp"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="40dp"
+                app:cardElevation="4dp"
+                app:cardCornerRadius="12dp">
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="160dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/parambriym" />
+            </androidx.cardview.widget.CardView>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="16dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text=" Parambriym Southern Dining"
+                    android:textColor="@android:color/black"
+                    android:textStyle="bold"
+                    android:textSize="23sp"/>
+                <!-- Additional TextViews for Image 2 -->
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Distance: 3.1km from Siruvani Falls"
+                    android:textColor="@android:color/black"
+                    android:textSize="17sp"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Address: 4th Floor Food Court Fun Mall "
+                    android:textColor="@android:color/black"
+                    android:textSize="17sp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Type: Veg and Non Veg"
+                    android:textColor="@android:color/black"
+                    android:textSize="17sp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Price Range: Up to 90"
+                    android:textColor="@android:color/black"
+                    android:textSize="17sp"/>
+
+                <!-- RatingBar -->
+                <RatingBar
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:rating="3.5"
+                    android:isIndicator="true"
+                    android:stepSize="0.5"/>
+            </LinearLayout>
+        </LinearLayout>
+        <!-- Space between images and text -->
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="10dp"/>
+        <!-- Black Line -->
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/black"/>
+        <!-- sixth Image with Text -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_marginTop="30dp"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="40dp"
+                app:cardElevation="4dp"
+                app:cardCornerRadius="12dp">
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="160dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/sss" />
+            </androidx.cardview.widget.CardView>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="16dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Shanthi Social Services Canteen"
+                    android:textColor="@android:color/black"
+                    android:textSize="23sp"
+                    android:textStyle="bold"/>
+
+                <!-- Additional TextViews for Image 2 -->
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Distance: 5km from Siruvani Falls"
+                    android:textColor="@android:color/black"
+                    android:textSize="17sp"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Address: 2249,Trichy Road Singanallur"
+                    android:textColor="@android:color/black"
+                    android:textSize="17sp"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Type: Veg"
+                    android:textColor="@android:color/black"
+                    android:textSize="17sp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Price Range: Average "
+                    android:textColor="@android:color/black"
+                    android:textSize="17sp" />
+                <!-- RatingBar -->
+                <RatingBar
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:rating="5"
+                    android:isIndicator="true"
+                    android:stepSize="0.5"/>
+            </LinearLayout>
+        </LinearLayout>
+        <!-- Space between images and text -->
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="10dp"/>
+        <!-- Black Line -->
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/black"/>
+
+        <!-- Seventh Image with Text -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_marginTop="30dp"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="40dp"
+                app:cardElevation="4dp"
+                app:cardCornerRadius="12dp">
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="160dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/tandoo" />
+            </androidx.cardview.widget.CardView>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="16dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Tandoori Tonight"
+                    android:textColor="@android:color/black"
+                    android:textStyle="bold"
+                    android:textSize="23sp"/>
+
+                <!-- Additional TextViews for Image 2 -->
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Distance: 3.3km from  Siruvani Falls"
+                    android:textColor="@android:color/black"
+                    android:textSize="17sp"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Address: Avinashi Rd Nava Bus Stop,Udayampalayam "
+                    android:textColor="@android:color/black"
+                    android:textSize="17sp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Type: Veg "
+                    android:textColor="@android:color/black"
+                    android:textSize="17sp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Price Range: Average "
+                    android:textColor="@android:color/black"
+                    android:textSize="17sp"/>
+
+                <!-- RatingBar -->
+                <RatingBar
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:rating="3.5"
+                    android:isIndicator="true"
+                    android:stepSize="0.5"/>
+            </LinearLayout>
+        </LinearLayout>
+        <!-- Space between images and text -->
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="10dp"/>
+        <!-- Black Line -->
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/black"/>
+        <!-- eight Image with Text -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_marginTop="30dp"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="40dp"
+                app:cardElevation="4dp"
+                app:cardCornerRadius="12dp">
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="160dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/junior" />
+            </androidx.cardview.widget.CardView>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="16dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Hotel Junior Kuppanna"
+                    android:textColor="@android:color/black"
+                    android:textStyle="bold"
+                    android:textSize="23sp"/>
+
+                <!-- Additional TextViews for Image 2 -->
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Distance: 3.3km from Siruvani Falls"
+                    android:textColor="@android:color/black"
+                    android:textSize="17sp"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Address: Avinashi Rd,NavaIndia,Peelamedu"
+                    android:textColor="@android:color/black"
+                    android:textSize="17sp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Type: Non veg"
+                    android:textColor="@android:color/black"
+                    android:textSize="17sp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Price Range: Average "
+                    android:textColor="@android:color/black"
+                    android:textSize="17sp"/>
+
+                <!-- RatingBar -->
+                <RatingBar
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:rating="3.5"
+                    android:isIndicator="true"
+                    android:stepSize="0.5"/>
+            </LinearLayout>
+        </LinearLayout>
+        <!-- Space between images and text -->
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="10dp"/>
+        <!-- Add more ImageViews and TextViews with space between them as needed -->
+
+    </LinearLayout>
+</ScrollView>

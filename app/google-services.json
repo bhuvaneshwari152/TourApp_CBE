@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "299293476899",
+    "project_id": "miniproject-2b1c6",
+    "storage_bucket": "miniproject-2b1c6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:299293476899:android:a92b97fe0744ddd01f0996",
+        "android_client_info": {
+          "package_name": "com.example.tourism"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDzN2jfaE8y2bUoOOgNELNEmRv8tRjy1lo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

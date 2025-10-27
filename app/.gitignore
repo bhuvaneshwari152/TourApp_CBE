@@ -1,0 +1,21 @@
+/build
+# Gradle & build
+.gradle/
+build/
+local.properties
+
+# IDE
+*.iml
+.idea/
+
+# Android Studio
+captures/
+.externalNativeBuild/
+
+# Kotlin/Java
+*.class
+*.apk
+*.ap_
+
+# API keys (your custom file)
+**/apikeys.properties

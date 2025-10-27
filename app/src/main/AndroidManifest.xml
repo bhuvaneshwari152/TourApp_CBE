@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Tourism"
+        tools:targetApi="31">
+        <activity
+            android:name=".vell_hot"
+            android:exported="false" />
+        <activity
+            android:name=".kkhotel"
+            android:exported="false" />
+        <activity
+            android:name=".ukkadam_hotel"
+            android:exported="false" />
+        <activity
+            android:name=".userlist"
+            android:exported="false" />
+        <activity
+            android:name=".item_layout"
+            android:exported="false" />
+        <activity
+            android:name=".maruthamalai_hotel"
+            android:exported="false" />
+        <activity
+            android:name=".SiruvaniHotel"
+            android:exported="false" />
+        <activity
+            android:name=".kkrest"
+            android:exported="false" />
+        <activity
+            android:name=".kovaikutralam"
+            android:exported="false" />
+        <activity
+            android:name=".vell_rest"
+            android:exported="false" />
+        <activity
+            android:name=".ukkadam_lake"
+            android:exported="false" />
+        <activity
+            android:name=".ukkadam_rest"
+            android:exported="false" />
+        <activity
+            android:name=".kovai_rest"
+            android:exported="false" />
+        <activity
+            android:name=".velliangiri"
+            android:exported="false" />
+        <activity
+            android:name=".maruthamalai_rest"
+            android:exported="false" />
+        <activity
+            android:name=".maruthamalai"
+            android:exported="false" />
+        <activity
+            android:name=".guide_activity"
+            android:exported="false" />
+        <activity
+            android:name=".rest2"
+            android:exported="false" />
+        <activity
+            android:name=".LastGame"
+            android:exported="false" />
+        <activity
+            android:name=".task_item"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".SignUp"
+            android:exported="false" />
+        <activity
+            android:name=".RegisterPage"
+            android:exported="true">
+
+            <!-- Intent filter for MainActivity if needed -->
+        </activity>
+        <activity
+            android:name=".task_layout"
+            android:exported="false" />
+        <activity
+            android:name=".togo"
+            android:exported="false" />
+        <activity
+            android:name=".isha_hotel"
+            android:exported="false" />
+        <activity
+            android:name=".shop"
+            android:exported="false" />
+        <activity
+            android:name=".Transportation"
+            android:exported="false" />
+        <activity
+            android:name=".IshaRestaurant"
+            android:exported="false" />
+        <activity
+            android:name=".SearchResultsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".City_Information"
+            android:exported="false"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".Siruvani"
+            android:exported="true" />
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyDwDBvm2tkBof8k9iRHU7QJFZQSf9i5Dqc" />
+    </application>
+
+</manifest>

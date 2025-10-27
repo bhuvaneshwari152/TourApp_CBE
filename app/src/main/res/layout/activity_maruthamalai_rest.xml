@@ -1,0 +1,434 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- Hotel 1 -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="30dp">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="40dp"
+                app:cardElevation="4dp"
+                app:cardCornerRadius="12dp">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="160dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/img" />
+            </androidx.cardview.widget.CardView>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="16dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Jp Chettinad Hotel"
+                    android:textColor="@android:color/black"
+                    android:textStyle="bold"
+                    android:textSize="23sp"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Distance: 6.8km from Maruthamalai Temple"
+                    android:textColor="@android:color/black"
+                    android:textSize="17sp"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Address: Thondamuthur Main Road"
+                    android:textColor="@android:color/black"
+                    android:textSize="17sp"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Type: Veg and Non Veg"
+                    android:textColor="@android:color/black"
+                    android:textSize="17sp"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Price Range: 200 to 400"
+                    android:textColor="@android:color/black"
+                    android:textSize="17sp"/>
+                <RatingBar
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:rating="3.5"
+                    android:isIndicator="true"
+                    android:stepSize="0.5"/>
+            </LinearLayout>
+        </LinearLayout>
+
+        <Space android:layout_width="match_parent" android:layout_height="10dp"/>
+        <View android:layout_width="match_parent" android:layout_height="1dp" android:background="@android:color/black"/>
+
+        <!-- Hotel 2 -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="30dp">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_gravity="center"
+                android:layout_margin="8dp"
+                app:cardCornerRadius="8dp">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/kandha"
+                    android:scaleType="centerCrop"
+                    android:adjustViewBounds="true"/>
+            </androidx.cardview.widget.CardView>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="16dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Kandhaas Restaurant"
+                    android:textColor="@android:color/black"
+                    android:textStyle="bold"
+                    android:textSize="23sp"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Distance: 7km from Maruthamalai Temple"
+                    android:textColor="@android:color/black"
+                    android:textSize="17sp"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Address: Vadavalli Thondamuthur Road"
+                    android:textColor="@android:color/black"
+                    android:textSize="17sp"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Type: Veg and Non Veg"
+                    android:textColor="@android:color/black"
+                    android:textSize="17sp"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Price Range: Up to 200"
+                    android:textColor="@android:color/black"
+                    android:textSize="17sp"/>
+                <RatingBar
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:rating="3.5"
+                    android:isIndicator="true"
+                    android:stepSize="0.5"/>
+            </LinearLayout>
+        </LinearLayout>
+
+        <Space android:layout_width="match_parent" android:layout_height="10dp"/>
+        <View android:layout_width="match_parent" android:layout_height="1dp" android:background="@android:color/black"/>
+
+        <!-- Hotel 3 -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="30dp">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="40dp"
+                app:cardElevation="4dp"
+                app:cardCornerRadius="12dp">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="160dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/karai"/>
+            </androidx.cardview.widget.CardView>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="16dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Karaikudi Chettinad Hotel"
+                    android:textColor="@android:color/black"
+                    android:textStyle="bold"
+                    android:textSize="23sp"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Distance: 6.9km from Maruthamalai Temple"
+                    android:textColor="@android:color/black"
+                    android:textSize="17sp"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Address: Bommanampalayam Road"
+                    android:textColor="@android:color/black"
+                    android:textSize="17sp"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Type: Veg and Non Veg"
+                    android:textColor="@android:color/black"
+                    android:textSize="17sp"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Price Range: Average"
+                    android:textColor="@android:color/black"
+                    android:textSize="17sp"/>
+                <RatingBar
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:rating="3.5"
+                    android:isIndicator="true"
+                    android:stepSize="0.5"/>
+            </LinearLayout>
+        </LinearLayout>
+
+        <Space android:layout_width="match_parent" android:layout_height="10dp"/>
+        <View android:layout_width="match_parent" android:layout_height="1dp" android:background="@android:color/black"/>
+
+        <!-- Hotel 4 -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="30dp">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="40dp"
+                app:cardElevation="4dp"
+                app:cardCornerRadius="12dp">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="160dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/nshot"/>
+            </androidx.cardview.widget.CardView>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="16dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Ns Hotel"
+                    android:textColor="@android:color/black"
+                    android:textStyle="bold"
+                    android:textSize="23sp"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Distance: 5.2km from Maruthamalai Temple"
+                    android:textColor="@android:color/black"
+                    android:textSize="17sp"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Address: Main Road Kalveerampalayam"
+                    android:textColor="@android:color/black"
+                    android:textSize="17sp"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Type: Veg and Non Veg"
+                    android:textColor="@android:color/black"
+                    android:textSize="17sp"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Price Range: Average"
+                    android:textColor="@android:color/black"
+                    android:textSize="17sp"/>
+                <RatingBar
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:rating="3.5"
+                    android:isIndicator="true"
+                    android:stepSize="0.5"/>
+            </LinearLayout>
+        </LinearLayout>
+
+        <Space android:layout_width="match_parent" android:layout_height="10dp"/>
+        <View android:layout_width="match_parent" android:layout_height="1dp" android:background="@android:color/black"/>
+
+        <!-- Hotel 5 -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="30dp">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="40dp"
+                app:cardElevation="4dp"
+                app:cardCornerRadius="12dp">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="160dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/qtkitchen"/>
+            </androidx.cardview.widget.CardView>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="16dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Q T Kitchen"
+                    android:textColor="@android:color/black"
+                    android:textStyle="bold"
+                    android:textSize="23sp"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Distance: 6.6km from Maruthamalai Temple"
+                    android:textColor="@android:color/black"
+                    android:textSize="17sp"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Address: Maruthamalai Road Maruthamalai"
+                    android:textColor="@android:color/black"
+                    android:textSize="17sp"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Type: Veg and Non Veg"
+                    android:textColor="@android:color/black"
+                    android:textSize="17sp"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Price Range: Average"
+                    android:textColor="@android:color/black"
+                    android:textSize="17sp"/>
+                <RatingBar
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:rating="3.5"
+                    android:isIndicator="true"
+                    android:stepSize="0.5"/>
+            </LinearLayout>
+        </LinearLayout>
+
+        <Space android:layout_width="match_parent" android:layout_height="10dp"/>
+        <View android:layout_width="match_parent" android:layout_height="1dp" android:background="@android:color/black"/>
+
+        <!-- Hotel 6 -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="30dp">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="40dp"
+                app:cardElevation="4dp"
+                app:cardCornerRadius="12dp">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="160dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/nshot"/>
+            </androidx.cardview.widget.CardView>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="16dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Ns Hotel"
+                    android:textColor="@android:color/black"
+                    android:textStyle="bold"
+                    android:textSize="23sp"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Distance: 5.2km from Maruthamalai Temple"
+                    android:textColor="@android:color/black"
+                    android:textSize="17sp"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Address: Main Road Kalveerampalayam"
+                    android:textColor="@android:color/black"
+                    android:textSize="17sp"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Type: Veg and Non Veg"
+                    android:textColor="@android:color/black"
+                    android:textSize="17sp"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Price Range: Average"
+                    android:textColor="@android:color/black"
+                    android:textSize="17sp"/>
+                <RatingBar
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:rating="3.5"
+                    android:isIndicator="true"
+                    android:stepSize="0.5"/>
+            </LinearLayout>
+        </LinearLayout>
+
+        <Space android:layout_width="match_parent" android:layout_height="10dp"/>
+        <View android:layout_width="match_parent" android:layout_height="1dp" android:background="@android:color/black"/>
+
+    </LinearLayout>
+</ScrollView>

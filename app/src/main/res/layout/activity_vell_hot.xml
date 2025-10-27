@@ -1,0 +1,289 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/white">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <!-- Title TextView at the top center -->
+
+        <!-- First Image with Text -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_marginTop="30dp"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="40dp"
+                app:cardElevation="4dp"
+                app:cardCornerRadius="12dp">
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="160dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/velhot1" />
+            </androidx.cardview.widget.CardView>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="16dp">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Dhoni Castle"
+                    android:textColor="@android:color/black"
+                    android:textSize="23sp"
+                    android:textStyle="bold"/>
+
+                <!-- Additional TextViews for Image 1 -->
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Distance: 18.1 km from vellaingiri"
+                    android:textColor="@android:color/black"
+                    android:textSize="17sp"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Address:Paitanukunnu, Near, Dhoni Farm Rd, Olavakode, Akathethara, Kerala "
+                    android:textColor="@android:color/black"
+                    android:textSize="17sp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Price:931 per day"
+                    android:textColor="@android:color/black"
+                    android:textSize="17sp"/>
+                <!-- RatingBar -->
+                <RatingBar
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:stepSize="0.5"
+                    android:rating="4"
+                    android:isIndicator="true"/>
+            </LinearLayout>
+        </LinearLayout>
+        <!-- Space between images and text -->
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="10dp"/>
+        <!-- Black Line -->
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/black"/>
+        <!-- Second Image with Text -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_marginTop="30dp"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="40dp"
+                app:cardElevation="4dp"
+                app:cardCornerRadius="12dp">
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="160dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/velhot2"/>
+            </androidx.cardview.widget.CardView>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="16dp">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="TEJA RESIDENCY"
+                    android:textColor="@android:color/black"
+                    android:textStyle="bold"
+                    android:textSize="23sp"/>
+
+                <!-- Additional TextViews for Image 2 -->
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Distance:7.9 km from vellaingiri"
+                    android:textSize="17sp"
+                    android:textColor="@android:color/black"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Address:4/634-3, Siruvani Main Rd, Karunya Nagar, Coimbatore, Madawarayapuram, Tamil Nadu"
+                    android:textColor="@android:color/black"
+                    android:textSize="17sp"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Price:1384 per day"
+                    android:textColor="@android:color/black"
+                    android:textSize="17sp"/>
+                <!-- RatingBar -->
+                <RatingBar
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:stepSize="0.5"
+                    android:rating="4"
+                    android:isIndicator="true"/>
+            </LinearLayout>
+        </LinearLayout>
+
+        <!-- Space between images and text -->
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="10dp"/>
+        <!-- Black Line -->
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/black"/>
+        <!-- Fourth Image with Text -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_marginTop="30dp"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="40dp"
+                app:cardElevation="4dp"
+                app:cardCornerRadius="12dp">
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="160dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/velhot3" />
+            </androidx.cardview.widget.CardView>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="16dp">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="LINGA STAYS"
+                    android:textColor="@android:color/black"
+                    android:textSize="23sp"
+                    android:textStyle="bold"/>
+                <!-- Additional TextViews for Image 2 -->
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="12.1 km from vellaingiri"
+                    android:textColor="@android:color/black"
+                    android:textSize="17sp"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Address: Koothandavar Kovil Street, Highschoolpudur, Ramanathapuram, Pudur, Tamil Nadu"
+                    android:textColor="@android:color/black"
+                    android:textSize="17sp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Price:1350 per day"
+                    android:textColor="@android:color/black"
+                    android:textSize="17sp"/>
+
+                <!-- RatingBar -->
+                <RatingBar
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:stepSize="0.5"
+                    android:rating="4"
+                    android:isIndicator="true"/>
+            </LinearLayout>
+        </LinearLayout>
+        <!-- Space between images and text -->
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="10dp"/>
+        <!-- Black Line -->
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/black"/>
+
+        <!-- Fifth Image with Text -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_marginTop="30dp"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="40dp"
+                app:cardElevation="4dp"
+                app:cardCornerRadius="12dp">
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="160dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/velhot4" />
+            </androidx.cardview.widget.CardView>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="16dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Nadi Cottages"
+                    android:textColor="@android:color/black"
+                    android:textStyle="bold"
+                    android:textSize="23sp"/>
+                <!-- Additional TextViews for Image 2 -->
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="4.8 km away from vellaingiri"
+                    android:textColor="@android:color/black"
+                    android:textSize="17sp"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Address:Isha Yoga Center Rd, Booluvampatti, Tamil Nadu "
+                    android:textColor="@android:color/black"
+                    android:textSize="17sp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Price:1200 approximately per day"
+                    android:textColor="@android:color/black"
+                    android:textSize="17sp"/>
+
+                <!-- RatingBar -->
+                <RatingBar
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:stepSize="0.5"
+                    android:rating="4"
+                    android:isIndicator="true"/>
+            </LinearLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>

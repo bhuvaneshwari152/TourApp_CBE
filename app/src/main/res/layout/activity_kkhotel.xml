@@ -1,0 +1,289 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/white">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <!-- Title TextView at the top center -->
+
+        <!-- First Image with Text -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_marginTop="30dp"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="40dp"
+                app:cardElevation="4dp"
+                app:cardCornerRadius="12dp">
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="160dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/kkrhot1" />
+            </androidx.cardview.widget.CardView>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="16dp">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Sree Bharat Residency"
+                    android:textColor="@android:color/black"
+                    android:textSize="23sp"
+                    android:textStyle="bold"/>
+
+                <!-- Additional TextViews for Image 1 -->
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Distance: 7.9 km from Kovai Kutralam Water Falls"
+                    android:textColor="@android:color/black"
+                    android:textSize="17sp"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Address:4/652, Siruvani Main Rd Nallur Vayal, Karunya Nagar, Mathavarayapuram, Perur 641114 India"
+                    android:textColor="@android:color/black"
+                    android:textSize="17sp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Price:2500 per day"
+                    android:textColor="@android:color/black"
+                    android:textSize="17sp"/>
+                <!-- RatingBar -->
+                <RatingBar
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:stepSize="0.5"
+                    android:rating="4"
+                    android:isIndicator="true"/>
+            </LinearLayout>
+        </LinearLayout>
+        <!-- Space between images and text -->
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="10dp"/>
+        <!-- Black Line -->
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/black"/>
+        <!-- Second Image with Text -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_marginTop="30dp"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="40dp"
+                app:cardElevation="4dp"
+                app:cardCornerRadius="12dp">
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="160dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/kkrhot2"/>
+            </androidx.cardview.widget.CardView>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="16dp">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text=" Au Revoir"
+                    android:textColor="@android:color/black"
+                    android:textStyle="bold"
+                    android:textSize="23sp"/>
+
+                <!-- Additional TextViews for Image 2 -->
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Distance:11.8 km from Kovai Kutralam Water Falls"
+                    android:textSize="17sp"
+                    android:textColor="@android:color/black"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Address:Malampuzha Dam Ring Road South Malampuzha, Palakkad 678591 India"
+                    android:textColor="@android:color/black"
+                    android:textSize="17sp"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Price:5866 per day"
+                    android:textColor="@android:color/black"
+                    android:textSize="17sp"/>
+                <!-- RatingBar -->
+                <RatingBar
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:stepSize="0.5"
+                    android:rating="4"
+                    android:isIndicator="true"/>
+            </LinearLayout>
+        </LinearLayout>
+
+        <!-- Space between images and text -->
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="10dp"/>
+        <!-- Black Line -->
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/black"/>
+        <!-- Fourth Image with Text -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_marginTop="30dp"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="40dp"
+                app:cardElevation="4dp"
+                app:cardCornerRadius="12dp">
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="160dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/kkrhot3" />
+            </androidx.cardview.widget.CardView>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="16dp">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Tuskers Hill by Poppys - Anaikatti"
+                    android:textColor="@android:color/black"
+                    android:textSize="23sp"
+                    android:textStyle="bold"/>
+                <!-- Additional TextViews for Image 2 -->
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="13.7 km from Kovai Kutralam Water Falls"
+                    android:textColor="@android:color/black"
+                    android:textSize="17sp"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Address: 1412/2, 1412/3, Sholayoor, Mannarkkad 678581 India"
+                    android:textColor="@android:color/black"
+                    android:textSize="17sp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Price:8200 per day"
+                    android:textColor="@android:color/black"
+                    android:textSize="17sp"/>
+
+                <!-- RatingBar -->
+                <RatingBar
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:stepSize="0.5"
+                    android:rating="4"
+                    android:isIndicator="true"/>
+            </LinearLayout>
+        </LinearLayout>
+        <!-- Space between images and text -->
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="10dp"/>
+        <!-- Black Line -->
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/black"/>
+
+        <!-- Fifth Image with Text -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_marginTop="30dp"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="40dp"
+                app:cardElevation="4dp"
+                app:cardCornerRadius="12dp">
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="160dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/kkrhot4" />
+            </androidx.cardview.widget.CardView>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="16dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text=" Hotel Tripenta"
+                    android:textColor="@android:color/black"
+                    android:textStyle="bold"
+                    android:textSize="23sp"/>
+                <!-- Additional TextViews for Image 2 -->
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="13.4 km from Kovai Kutralam Water Falls"
+                    android:textColor="@android:color/black"
+                    android:textSize="17sp"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Address:Opposite to Rock Garden Malampuzha, Palakkad 678 651 India"
+                    android:textColor="@android:color/black"
+                    android:textSize="17sp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Price:6140 per day"
+                    android:textColor="@android:color/black"
+                    android:textSize="17sp"/>
+
+                <!-- RatingBar -->
+                <RatingBar
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:stepSize="0.5"
+                    android:rating="4"
+                    android:isIndicator="true"/>
+            </LinearLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>
